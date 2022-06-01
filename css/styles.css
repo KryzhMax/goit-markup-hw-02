@@ -1,0 +1,67 @@
+/* h color #212121 */
+/* accent color #2196F3 */
+/* main color #757575 */
+/* white color #FFFFFF; */
+/* footer contacts rgba(255, 255, 255, 0.6); */
+
+:root{
+    --title-color: #212121;
+    --main-color:#757575;
+    --accent-color: #2196F3;
+    --footer-contacts: rgba(255, 255, 255, 0.6);
+    --main-white: #ffffff;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* Site nav */
+.link{
+    color: var(--title-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+.contacts a{
+    color: var(--main-color);
+}
+
+.contacts a:hover,
+.contacts a:focus{
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.button{
+    color: var(--main-white);
+    background-color: var(--accent-color);
+}
+
+/* Sections */
+.section-title{
+    color: var(--title-color);
+}
+
+/* Features */
+.features .title{
+    color: var(--title-color);
+}
+
+/* Our team */
+.team-member{
+    color: var(--title-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
