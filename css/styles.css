@@ -228,3 +228,9 @@ body {
     color: var(--main-color)
 }
 
+.all-title:hover,
+all-title:focus,
+.text-all:hover,
+.text-all:focus{    
+    color: var(--accent-color);
+}
