@@ -5,6 +5,7 @@
     --footer-contacts: rgba(255, 255, 255, 0.6);
     --main-white: #ffffff;
     --background-team-color: #F5F4FA;
+    --button-hover: 188CE8;
 }
 body {
     font-family: 'Roboto', sans-serif; 
@@ -12,6 +13,12 @@ body {
     color: #757575;
     background-color: var(--main-white);
 }
+
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
 
 .list,
 .section-list,
@@ -57,6 +64,10 @@ body {
 }
 .link{
     color: var(--title-color);
+}
+
+.site-nav .current{
+    color: var(--accent-color);
 }
 
 .info{
@@ -105,8 +116,13 @@ body {
     color: var(--main-white);
     background-color: var(--accent-color);
 
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.button:hover,
+.button:focus{
+    background-color: var(--button-hover);
+    color: var(--main-white);
 }
 
 /* Features */
@@ -233,4 +249,17 @@ all-title:focus,
 .text-all:hover,
 .text-all:focus{    
     color: var(--accent-color);
+}
+
+.pane {
+    display: none;
+    padding: 8px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    width: 380px;
+    margin-left: 15px;
+}
+
+.is-active {
+    display: block;
 }
