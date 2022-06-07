@@ -5,7 +5,7 @@
     --footer-contacts: rgba(255, 255, 255, 0.6);
     --main-white: #ffffff;
     --background-team-color: #F5F4FA;
-    --button-hover: 188CE8;
+    --button-hover: #188CE8;
 }
 body {
     font-family: 'Roboto', sans-serif; 
@@ -121,7 +121,7 @@ body {
 }
 .button:hover,
 .button:focus{
-    background-color: var(--button-hover);
+    background-color: #188CE8;
     color: var(--main-white);
 }
 
